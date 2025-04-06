@@ -6,17 +6,17 @@ Explore an interactive and intelligent data visualization platform designed to a
 
 ## Key Features
 
-- 🔥 **[Heatmaps](heatmap.png)**: Quickly identify geographic crime density patterns across California counties.\
+- 🔥 **[Heatmaps](screenshots/heatmap.png)**: Quickly identify geographic crime density patterns across California counties.\
 
 
-- 📈 **[Line Graphs](line_chart.png) & [Pie Charts](pie_chart.png)**: Easily visualize historical trends and breakdown of violent crime types.\
+- 📈 **[Line Graphs](screenshots/line_chart.png) & [Pie Charts](screenshots/pie_chart.png)**: Easily visualize historical trends and breakdown of violent crime types.\
   \
 
 
-- 📍 **[Geospatial Clustering](geospace.png)**: Utilizes K-Means clustering to highlight crime hotspots and regional safety profiles.\
+- 📍 **[Geospatial Clustering](screenshots/geospace.png)**: Utilizes K-Means clustering to highlight crime hotspots and regional safety profiles.\
 
 
-- 🤖 **[AI-powered Chatbot](chatbot.png)**: Built with [PandasAI's Bamboo LLM](https://github.com/pandas-ai/pandas-ai), providing dynamic, instant data-driven insights.\
+- 🤖 **[AI-powered Chatbot](screenshots/chatbot.png)**: Built with [PandasAI's Bamboo LLM](https://github.com/pandas-ai/pandas-ai), providing dynamic, instant data-driven insights.\
 
 
 ## Data Preprocessing
