@@ -1,0 +1,20 @@
+# Use the latest official Python runtime as a parent image
+FROM python:3.10-slim
+
+# Set environment variables
+ENV PANDASAI_API_KEY=${PANDASAI_API_KEY} \
+    OPENAI_API_KEY=${OPENAI_API_KEY}
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Copy the specific Python scripts into the container at /app
+COPY . /app
+# Install any needed packages specified
+RUN pip install --no-cache-dir pandasai pandas openai==0.28.1 langchain==0.0.330 flask
+
+# Make port 5000 available to the world outside this container
+EXPOSE 5002
+
+# Run intelligent_api.py when the container launches
+CMD ["python3", "intelligent_api.py"]
